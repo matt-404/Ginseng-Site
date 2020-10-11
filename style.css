@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+p, h5, h2 {
+  color: #574525;
+}
+
+h2 {
+  font-size: 1.46667em;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+/*---------- header code ----------*/
+
+/* .site-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+}
+
+#top-grey {
+  margin-bottom: 40px;
+  background-color: rgb(179, 179, 179);
+  color: rgb(25, 52, 65);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  position: sticky;
+  top: 0;
+} */
+
+#top-number {
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper img{
+  padding: 20px;
+  margin: 0 auto;
+  width: 250px;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0;
+}
+
+/*---------- body code ----------*/
+
+.wrapper-main {
+  display: flex;
+}
+
+.main-header {
+  height: 60px;
+  padding-left: 15%;
+}
+
+.main-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 200px 20px;
+  width: 100%;
+}
+
+.ginseng {
+  width: 25%;
+  text-align: center;
+}
+
+.ginseng img {
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.ginseng img:hover {
+  opacity: 70%;
+}
+
+
+
