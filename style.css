@@ -30,7 +30,7 @@ h5 {
 
 /*---------- header code ----------*/
 
-/* .site-header {
+.site-header {
   display: flex;
   flex-direction: column;
   margin: 0 auto 30px;
@@ -48,11 +48,11 @@ h5 {
   text-align: center;
   position: sticky;
   top: 0;
-} */
-
-#top-number {
-  color: rgb(255, 255, 255);
 }
+
+/* #top-number {
+  color: rgb(255, 255, 255);
+} */
 
 .wrapper {
   display: flex;
