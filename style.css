@@ -110,13 +110,11 @@ a:hover {
   text-align: center;
 }
 
-
 .nav-ginseng>li {
   position: relative;
   display: inline-block;
   margin: 0;
 }
-
 
 .site-nav-link {
   display: block;
@@ -125,7 +123,7 @@ a:hover {
   white-space: nowrap;
 }
 
-/*---------- body code ----------*/
+/*---------- main code ----------*/
 
 .wrapper-main {
   display: flex;
@@ -139,7 +137,7 @@ a:hover {
 .main-grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 200px 20px;
+  padding: 10px 150px 20px;
   width: 100%;
 }
 
@@ -177,7 +175,8 @@ a:hover {
 .footer-grid-item {
   display: inline-block;
   width: 25%;
-  padding: 0 30px;
+  padding: 0;
+  margin: 0 25px;
 }
 
 .footer-grid-links {
