@@ -7,15 +7,19 @@
 body {
   font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;
   margin: 0;
-}
-
-p {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #3c2e23;
 }
 
 p, h5, h2 {
   color: #574525;
+}
+
+h1 {
+  font-size: 1.73333em;
+  line-height: 2;
+  margin: 0 0 15px;
 }
 
 h2 {
@@ -53,12 +57,11 @@ li {
 
 a {
   color: #3c2e23;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #f89e97;
-  text-decoration: none;
-  background: transparent;
+  color: #f45b4f;
 }
 
 /*---------- header code ----------*/
@@ -66,7 +69,7 @@ a:hover {
 .site-header {
   display: flex;
   flex-direction: column;
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
   justify-content: center;
   background: rgb(255, 255, 255);
 }
@@ -88,6 +91,7 @@ a:hover {
 } */
 
 .wrapper {
+  max-width: 1030px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -124,6 +128,51 @@ a:hover {
 }
 
 /*---------- main code ----------*/
+/* This is the original site's specific tags */
+.main-content {
+  margin-top: 15px;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* margin-left: -30px; */
+}
+
+.grid-item {
+  min-height: 1px;
+  padding-left: 30px;
+  width: 100%;
+  vertical-align: top;
+}
+
+.section-header {
+  display: table;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.section-header-title {
+  color: #3c2e23;
+}
+
+.grid-words {
+  margin-bottom: 30px;
+}
+
+.grid-words p {
+  margin: 0 0 15px 0;
+}
+
+.grid-words h2 {
+  margin-top: 2em;
+}
+
+/*  */
 
 .wrapper-main {
   display: flex;
@@ -144,6 +193,11 @@ a:hover {
 .ginseng {
   width: 25%;
   text-align: center;
+}
+
+.ginseng p {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .ginseng img {
@@ -169,14 +223,13 @@ a:hover {
 .footer-grid {
   list-style: none;
   margin: 0;
-  padding-left: 10%;
 }
 
 .footer-grid-item {
   display: inline-block;
   width: 25%;
   padding: 0;
-  margin: 0 25px;
+  margin: 0 30px;
 }
 
 .footer-grid-links {
