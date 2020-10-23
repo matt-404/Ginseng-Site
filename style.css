@@ -139,7 +139,7 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  /* margin-left: -30px; */
+  margin-left: -30px;
 }
 
 .grid-item {
@@ -158,6 +158,47 @@ a:hover {
 
 .section-header-title {
   color: #3c2e23;
+}
+
+.one-quarter {
+  width: 25%;
+}
+
+.grid-link {
+  position: relative;
+  display: block;
+  padding-bottom: 30px;
+  line-height: 1.3px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.grid-link-image {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto 10px;
+}
+
+.grid-link-title {
+  color: #3c2e23;
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.grid-link-meta {
+  font-size: .85em;
+  line-height: 1.5;
+  color: #574525;
+}
+
+.grid-link-title .grid-link-meta {
+  position: relative;
+  margin-bottom: 5px;
 }
 
 .grid-words {
