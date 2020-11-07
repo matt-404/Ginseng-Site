@@ -143,6 +143,7 @@ a:hover {
 }
 
 .grid-item {
+  float: left;
   min-height: 1px;
   padding-left: 30px;
   width: 100%;
@@ -190,13 +191,13 @@ a:hover {
   font-weight: 500;
 }
 
-.grid-link-meta {
+.grid-link-info {
   font-size: .85em;
   line-height: 1.5;
   color: #574525;
 }
 
-.grid-link-title .grid-link-meta {
+.grid-link-title .grid-link-info {
   position: relative;
   margin-bottom: 5px;
 }
@@ -213,9 +214,10 @@ a:hover {
   margin-top: 2em;
 }
 
-/*  */
+/* ----------------- */
 
-.wrapper-main {
+/* Backup css */
+/* .wrapper-main {
   display: flex;
 }
 
@@ -251,7 +253,9 @@ a:hover {
 
 .ginseng img:hover {
   opacity: 70%;
-}
+} */
+
+/* Backup code(end) */
 
 /*---------- footer code ----------*/
 
