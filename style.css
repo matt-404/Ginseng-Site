@@ -108,9 +108,9 @@ a:hover {
 }
 
 .wrapper {
-  max-width: 1030px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .wrapper::after {
@@ -264,11 +264,11 @@ a:hover {
 }
 
 .one-third {
-  width: 32%;
+  width: 20%;
 }
 
 .two-third {
-  width: 68%;
+  width: 80%;
 }
 
 .products {
@@ -276,7 +276,7 @@ a:hover {
 }
 
 .product-image img {
-  width: 335px;
+  width: 400px;
 }
 
 .product-single-prices {
@@ -285,7 +285,7 @@ a:hover {
 
 .product-single-price {
   color: #f45b4f;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -293,9 +293,10 @@ a:hover {
 .contacting {
   background-color: #f45b4f;
   color: white;
-  padding: 1em;
+  padding: .5em;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .contacting:hover {
