@@ -150,6 +150,10 @@ a:hover {
   white-space: nowrap;
 }
 
+.pad {
+  padding-top: 40px;
+}
+
 /*---------- main code ----------*/
 /* This is the original site's specific tags */
 .main-content {
@@ -369,3 +373,12 @@ a:hover {
   margin: 0;
   width: 40px;
 }
+
+
+/* -------------Media Queries --------------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    background: #bada55;
+  }
+}    
